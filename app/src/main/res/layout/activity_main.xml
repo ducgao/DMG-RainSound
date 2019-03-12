@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context=".MainActivity">
+
+  <ImageView
+      android:id="@+id/ivBackground"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:alpha="0"
+      android:background="@android:color/black"
+      android:src="@drawable/bg"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/btnGoodNight"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:alpha="0"
+      android:background="@android:color/black"
+      android:text="Chúc Bạn Ngủ Ngon"
+      android:textColor="@android:color/white"
+      android:textSize="24sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/btnStart"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:background="@android:color/black"
+      android:text="Bắt Đầu"
+      android:textColor="@android:color/white"
+      android:textSize="24sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
