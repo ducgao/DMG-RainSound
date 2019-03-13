@@ -46,4 +46,15 @@
       app:layout_constraintRight_toRightOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
+  <com.google.android.gms.ads.AdView
+      android:id="@+id/adView"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:elevation="99dp"
+      app:adSize="SMART_BANNER"
+      app:adUnitId="ca-app-pub-3656670221855991/8537369683"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
